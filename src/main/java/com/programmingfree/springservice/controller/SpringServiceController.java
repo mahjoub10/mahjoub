@@ -10,7 +10,7 @@ public class SpringServiceController {
 	
  @RequestMapping(value = "/{name}", method = RequestMethod.GET)
  public String getGreeting(@PathVariable String name) {
-  String result="Hello "+name; 
+  String result="Hello "+name+"for the second time "; 
   return result;
  }
 }
